@@ -6,26 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Clase 2</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
   </head>
   <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate Hola Mundo!!!!! puedo hacer cambios en tiempo real</li>
-        <li>Sass</li>
-      </ul>
+    <div class="contenedor-1">
+      
     </div>
-    <!-- build:js scripts/vendor.js -->
-    <!-- endbuild -->
-    <!-- build:js scripts/main.js -->
+    <div class="contenedor-2">
+      <button type ="button" id="btn-click-me">
+        Click me!
+      </button>
+      <button type ="button" id="btn-click-me-2">
+        Click me 2!
+      </button>
+    </div>
+    <!-- START FORM -->
+    <form action="" class="form-login">
+        <div>
+          <label for="input-nombre">Nombre</label>
+          <input type="text" id="input-nombre" name="name">
+        </div>
+        <div>
+          <label for="input-pass">Password</label>
+          <input type="password" id="input-pass" name="pass">
+        </div>
+        <button type="submit" class="btn-submit-form" >Enviar</button>
+    </form>
+    <!-- para remover eventos -->
+    <button type="button" class="btn-submit-events" >Eventos</button>
+    <!-- END FORM -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
